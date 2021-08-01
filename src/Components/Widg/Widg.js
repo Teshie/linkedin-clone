@@ -20,6 +20,18 @@ const Widg = () => {
         <h2>Linkedin News latest</h2>
         <Info />
       </div>
+      {newsArticle("React.js", "React.js News - 9222 reads")}
+      {newsArticle("Learn Redux", "You might don't need redux - 7454 reads")}
+      {newsArticle(
+        "Covid-19 Vaccination",
+        "You need to be vaccinated - 6548 reads"
+      )}
+      {newsArticle(
+        "Netflix New Movies",
+        "Latest Movies On Netflix- 52369 reads"
+      )}
+      {newsArticle("Bitcon Status", "How Bitcoin is rising - 78985 reads")}
+      {newsArticle("Ethiopia", "We all are fom Ethiopia - 87568 reads")}
     </div>
   );
 };
