@@ -17,11 +17,11 @@ const Widg = () => {
   return (
     <div className="widgets">
       <div className="header__widgets">
-        <h2>Linkedin News latest</h2>
+        <h2>Linkedin News</h2>
         <Info />
       </div>
       {newsArticle("React.js", "React.js News - 9222 reads")}
-      {newsArticle("Learn Redux", "You might don't need redux - 7454 reads")}
+      {newsArticle("Learn Redux", "You might need redux - 7454 reads")}
       {newsArticle(
         "Covid-19 Vaccination",
         "You need to be vaccinated - 6548 reads"

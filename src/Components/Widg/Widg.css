@@ -1,13 +1,12 @@
 .widgets {
   position: sticky;
   top: 80px;
-  flex: 0.2;
+  flex: 0.3;
   background-color: white;
   border-radius: 10px;
   border: 1px solid lightgray;
   height: fit-content;
   padding-bottom: 10px;
-  width: 200px;
 }
 .header__widgets {
   display: flex;
@@ -17,4 +16,18 @@
 }
 .header__widgets > h2 {
   font-size: 16px;
+}
+.widgets__article {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+}
+.widgets__article:hover {
+  background-color: whitesmoke;
+}
+.widgets__articleLeft {
+  color: #0177b7;
+}
+.widgets__articleLeft > .MuiSvgIcon-root {
+  font-size: 15px;
 }
